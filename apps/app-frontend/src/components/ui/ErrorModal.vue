@@ -313,7 +313,7 @@ async function copyToClipboard(text) {
             />
           </button>
           <Collapsible :collapsed="errorCollapsed">
-            <pre class="m-0 px-4 py-3 bg-bg rounded-none">{{ debugInfo }}</pre>
+            <pre class="m-0 px-4 py-3 bg-bg rounded-none whitespace-pre-wrap">{{ debugInfo }}</pre>
           </Collapsible>
         </div>
       </template>
